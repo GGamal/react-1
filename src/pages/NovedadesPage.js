@@ -1,8 +1,8 @@
 const NovedadesPage = (props) => {
     return (
-        <main class="holder">
+        <main className="holder">
             <h2>Novedades</h2>
-            <div class="novedades">
+            <div className="novedades">
                 <h3>Titulo</h3>
                 <h4>Subtitulo</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Voluptate, tempora reiciendis dolore sint
@@ -13,7 +13,7 @@ const NovedadesPage = (props) => {
             </div>
 
             <h2>Novedades</h2>
-            <div class="novedades">
+            <div className="novedades">
                 <h3>Titulo</h3>
                 <h4>Subtitulo</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Voluptate, tempora reiciendis dolore sint

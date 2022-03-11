@@ -1,9 +1,9 @@
 const ContactoPage = (props) => {
     return (
-        <main class="holder">
-            <div class="columna izquierda">
+        <main className="holder">
+            <div className="columna izquierda">
                 <h2>Contacto</h2>
-                <form action="" method="" class="formulario">
+                <form action="" method="" className="formulario">
                     <p>
                         <label for="">Nombre</label>
                         <input type="text" />
@@ -24,13 +24,13 @@ const ContactoPage = (props) => {
                         <textarea name="" id="comentario" cols="30" rows="10"></textarea>
                     </p>
 
-                    <p class="acciones">
+                    <p className="acciones">
                         <input type="submit" value="enviar" />
                     </p>
                 </form>
             </div>
 
-            <div class="columna derecha">
+            <div className="columna derecha">
                 <h2>Otras vias de contacto</h2>
                 <p>Tambien se puede comunicar con nosotros</p>
                 <ul>

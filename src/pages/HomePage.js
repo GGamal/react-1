@@ -1,12 +1,12 @@
 const HomePage = (props) => {
     return (
-        <main class="holder">
-            <div class="homeimg">
+        <main className="holder">
+            <div className="homeimg">
                 <img src="img/home/img01.jpg" alt="avion" />
 
             </div>
-            <div class="columnas">
-                <div class="bienvenidos izquierda">
+            <div className="columnas">
+                <div className="bienvenidos izquierda">
                     <h2>Bienvenidos</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, quod dolore optio
                         eligendi eos excepturi porro vero consequuntur. Autem nesciunt suscipit ea eum aliquid nemo. Dicta eaque vitae asperiores illum.</p>
@@ -17,11 +17,11 @@ const HomePage = (props) => {
 
                 </div>
 
-                <div class="testimonios derecha">
+                <div className="testimonios derecha">
                     <h2>Testimonios</h2>
-                    <div class="testimonio">
-                        <span class="cita">Exelente</span>
-                        <span class="autor"> German Murua - Jugador de E-sport profesional</span>
+                    <div className="testimonio">
+                        <span className="cita">Exelente</span>
+                        <span className="autor"> German Murua - Jugador de E-sport profesional</span>
                     </div>
 
                 </div>
