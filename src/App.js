@@ -19,11 +19,11 @@ import './App.css';
         <Switch>
 
           <Route path="/" exact component={HomePage} />
-          <Route path="galeria" exact component={GaleriaPage}/>
-          <Route path="nosotros" exact component={NosotrosPage} />
-          <Route path="servicios" exact component={ServiciosPage}/>
-          <Route path="novedades" exact component={NovedadesPage} />
-          <Route path="contacto" exact component={ContactoPage} />
+          <Route path="/galeria" exact component={GaleriaPage}/>
+          <Route path="/nosotros" exact component={NosotrosPage} />
+          <Route path="/servicios" exact component={ServiciosPage}/>
+          <Route path="/novedades" exact component={NovedadesPage} />
+          <Route path="/contacto" exact component={ContactoPage} />
 
         </Switch>
 

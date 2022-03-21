@@ -1,6 +1,11 @@
+import '../../styles/components/layout/Footer.css'
+
 const Footer = (props) => {
     return (
-        <div> <p>Diseñado por Gamal Maruan - &copy;año</p></div>
+        <footer>
+             <div> <p>Diseñado por Gamal Maruan - &copy;año</p></div>
+        </footer>
+       
         
     );
     

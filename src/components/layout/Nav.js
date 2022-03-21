@@ -1,18 +1,25 @@
-const Nav = (props) =>{
-    return(
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+
+import '../../styles/components/layout/Nav.css'
+
+const Nav = (props) => {
+    return (
         <nav>
-        <ul class="holder">
-            <li class="activo"><a href="index.html">Home</a></li>
-            <li><a href="nosotros.html"> Nosotros</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="galeria.html">Galeria</a></li>
-            <li><a href="novedades.html">Novedades</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+            <div className="holder">
+                <ul>
+                    <li><NavLink activeClassName="activo"exact to="/">Home</NavLink></li>
+                    <li><NavLink activeClassName="activo"exact to="/nosotros">Nosotros</NavLink></li>
+                    <li><NavLink activeClassName="activo"exact to="/servicios">Servicios</NavLink></li>
+                    <li><NavLink activeClassName="activo"exact to="/galeria">Galeria</NavLink></li>
+                    <li><NavLink activeClassName="activo"exact to="/novedades">Novedades</NavLink></li>
+                    <li><NavLink activeClassName="activo"exact to="/contacto">Contacto</NavLink></li>
+                </ul>
+            </div>
 
-        </ul>
 
-    </nav>
+        </nav>
     );
-    
+
 }
 export default Nav;

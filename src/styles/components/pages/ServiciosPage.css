@@ -1,0 +1,56 @@
+.servicios{
+    border:2px solid grey;
+    border-radius: 0.9em;
+    overflow: hidden;
+    margin: 3% 0;
+    padding: 2%;
+
+}
+
+.servicios ,.informacion{
+    width: 90%;
+}
+
+.informacion h4{
+    color: royalblue;
+    font-size: 140%;
+    margin: 0 0 1em;
+    padding-bottom: 1%;
+    border-bottom:  1px solid royalblue;
+    width:80%;
+
+}
+
+.informacion p{
+    font-size: 90%;
+    line-height: 1.1em;
+    
+}
+
+.servicios img{
+    border-radius: 1.2em;
+
+}
+
+.servicios:nth-child(even) img{
+    float: right;
+    margin: 0 0 0 5%;
+
+}
+
+.servicios:nth-child(even).informacion{
+    float: left;
+    
+}
+
+.servicios:nth-child(odd) img{
+    float: left;
+    margin: 0 5% 0 0;
+    
+
+}
+
+.servicios:nth-child(odd).informacion{
+    float: right;
+
+}
